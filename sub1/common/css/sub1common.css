@@ -64,7 +64,8 @@
     overflow: hidden;
 }
 #content .title_area .line_map{
-    position: absolute; right: 15px; top: 20px;
+    position: absolute; 
+    right: 15px; top: 20px;
     color: #666;
 }
 #content .title_area h2{

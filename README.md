@@ -22,7 +22,7 @@ GS리테일 (기업형) 웹 포트폴리오입니다.
 
 - HTML
 - CSS
-- JavaScript(ES6), JQuery
+- JavaScript(ES6), JQuery 
 - PHP / My-SQL
 - Git & Github
 - Figma
@@ -33,6 +33,10 @@ GS리테일 (기업형) 웹 포트폴리오입니다.
 - 웹 접근성검사(K-WAH) 완료
 - 크로스브라우징 (크롬, 사파리, 엣지, 파이어폭스, 오페라) 테스트 완료
 - 시멘틱 마크업, 아웃라인 정돈
+<<<<<<< HEAD
 - img tag(alt), a tag(title), table(scope, thead, tbody) 등 태그 속성을 활용해 접근성 향상
 
 
+=======
+- img tag(alt), a tag(title), table(scope, thead, tbody) 등 태그 속성을 활용해 접근성 향상
+>>>>>>> 5dc8d4a (index meta태그 추가 및 서브페이지 js파일 수정)
