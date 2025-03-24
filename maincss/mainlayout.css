@@ -311,196 +311,16 @@
     background: url(../images/esg1.jpg) no-repeat;
 }
 
-#content .business .lead_txt1 {
-    width: 450px;
-    height: 550px;
-    position: absolute;
-    left: 0;
-    top: 0;
-}
-
-#content .business li:hover .lead_txt1 {
-    transition: all .8s ease-in-out;
-    top: -75px;
-}
-
-#content .business .lead_txt1 h4 {
-    text-align: center;
-    margin-top: 210px;
-    margin-bottom: 50px;
-    font-size: 2rem;
-    color: #fff;
-    font-family: "Roboto", sans-serif;
-}
-
-#content .business li:hover .lead_txt1 h4 {
-    color: #fff;
-}
-
-#content .business .lead_txt1 p {
-    width: 300px;
-    margin-left: 70px;
-    font-weight: 500;
-    text-align: center;
-    margin-bottom: 50px;
-    font-size: 1rem;
-    color: #fff;
-    line-height: 1.8rem;
-    text-align: justify;
-    opacity: 0;
-}
-
-#content .business li:hover .lead_txt1 p {
-    opacity: 1;
-    color: #fff;
-}
-
-#content .business .lead_txt1 .lead_span1 {
-    text-align: center;
-    font-size: 1rem;
-    color: #fff;
-    position: relative;
-    left: 170px;
-    top: 0;
-    opacity: 0;
-}
-
-#content .business li:hover .lead_txt1 .lead_span1 {
-    opacity: 1;
-    color: #fff;
-}
-
-#content .business .lead_txt1 .lead_span1 .inner_span1 {
-    position: relative;
-    left: -50px;
-    top: 0;
-    opacity: 0;
-    transition: all .5s ease-out;
-}
-
-#content .business li:hover .lead_txt1 .inner_span1 {
-    left: 30px;
-    opacity: 1;
-    transition-delay: 1.4s;
-}
-
-#content .business .lead_txt1 .material-symbols-outlined {
-    position: absolute;
-    left: 0;
-    top: 0;
-    opacity: 0;
-    transition: all .5s ease-out;
-}
-
-#content .business .lead_body1:hover .material-symbols-outlined {
-    opacity: 1;
-    transition-delay: .6s;
-}
-
-
 #content .business .lead_body2 {
     background: url(../images/esg2.jpg) no-repeat;
-}
-
-#content .business .lead_body2 img {
-    transition: all .5s ease-out;
-}
-
-#content .business .lead_body2:hover img {
-    /* border-radius: 50%; */
-    opacity: .2;
-}
-
-#content .business .lead_txt2 {
-    width: 450px;
-    height: 550px;
-    position: absolute;
-    left: 0;
-    top: 0;
-}
-
-#content .business li:hover .lead_txt2 {
-    transition: all .8s ease-in-out;
-    top: -75px;
-}
-
-#content .business .lead_txt2 h4 {
-    text-align: center;
-    margin-bottom: 50px;
-    margin-top: 210px;
-    font-size: 2rem;
-    color: #fff;
-    font-family: "Roboto", sans-serif;
-}
-
-#content .business li:hover .lead_txt2 h4 {
-    color: #fff;
-}
-
-#content .business .lead_txt2 p {
-    width: 300px;
-    text-align: center;
-    margin-bottom: 50px;
-    margin-left: 70px;
-    font-weight: 500;
-    font-size: 1rem;
-    color: #fff;
-    line-height: 1.8rem;
-    text-align: justify;
-    opacity: 0;
-}
-
-#content .business li:hover .lead_txt2 p {
-    opacity: 1;
-    color: #fff;
-}
-
-#content .business .lead_txt2 .lead_span2 {
-    text-align: center;
-    font-size: 1rem;
-    color: #fff;
-    position: relative;
-    left: 170px;
-    top: 0;
-    opacity: 0;
-}
-
-#content .business li:hover .lead_txt2 .lead_span2 {
-    opacity: 1;
-    color: #fff;
-}
-
-#content .business .lead_txt2 .lead_span2 .inner_span2 {
-    position: relative;
-    left: -50px;
-    top: 0;
-    opacity: 0;
-    transition: all .5s ease-out;
-}
-
-#content .business li:hover .lead_txt2 .inner_span2 {
-    left: 30px;
-    opacity: 1;
-    transition-delay: 1.4s;
-}
-
-#content .business .lead_txt2 .material-symbols-outlined {
-    position: absolute;
-    left: 0;
-    top: 0;
-    opacity: 0;
-    transition: all .5s ease-out;
-}
-
-#content .business .lead_body2:hover .material-symbols-outlined {
-    opacity: 1;
-    transition-delay: .6s;
 }
 
 #content .business .lead_body3 {
     background: url(../images/esg3.jpg) no-repeat;
 }
 
+#content .business .lead_txt1,
+#content .business .lead_txt2,
 #content .business .lead_txt3 {
     width: 450px;
     height: 550px;
@@ -509,42 +329,53 @@
     top: 0;
 }
 
+#content .business li:hover .lead_txt1,
+#content .business li:hover .lead_txt2,
 #content .business li:hover .lead_txt3 {
     transition: all .8s ease-in-out;
     top: -75px;
 }
 
+#content .business .lead_txt1 h4,
+#content .business .lead_txt2 h4,
 #content .business .lead_txt3 h4 {
     text-align: center;
-    margin-bottom: 50px;
     margin-top: 210px;
+    margin-bottom: 50px;
     font-size: 2rem;
     color: #fff;
     font-family: "Roboto", sans-serif;
 }
 
-#content .business li:hover .lead_txt3 h4 {
+#content .business li:hover .lead_txt1 h4,
+#content .business li:hover .lead_txt2 h4,
+#content .business li:hover .lead_txt3 h4  {
     color: #fff;
 }
 
+#content .business .lead_txt1 p,
+#content .business .lead_txt2 p,
 #content .business .lead_txt3 p {
     width: 300px;
-    text-align: center;
-    margin-bottom: 50px;
-    margin-left: 70px;
-    font-weight: 500;
     font-size: 1rem;
-    color: #fff;
     line-height: 1.8rem;
-    text-align: justify;
+    font-weight: 500;
+    text-align: center;
+    margin-left: 70px;
+    margin-bottom: 50px;
+    color: #fff;
     opacity: 0;
 }
 
+#content .business li:hover .lead_txt1 p,
+#content .business li:hover .lead_txt2 p,
 #content .business li:hover .lead_txt3 p {
     opacity: 1;
     color: #fff;
 }
 
+#content .business .lead_txt1 .lead_span1,
+#content .business .lead_txt2 .lead_span2,
 #content .business .lead_txt3 .lead_span3 {
     text-align: center;
     font-size: 1rem;
@@ -555,11 +386,15 @@
     opacity: 0;
 }
 
+#content .business li:hover .lead_txt1 .lead_span1,
+#content .business li:hover .lead_txt2 .lead_span2,
 #content .business li:hover .lead_txt3 .lead_span3 {
     opacity: 1;
     color: #fff;
 }
 
+#content .business .lead_txt1 .lead_span1 .inner_span1,
+#content .business .lead_txt2 .lead_span2 .inner_span2,
 #content .business .lead_txt3 .lead_span3 .inner_span3 {
     position: relative;
     left: -50px;
@@ -568,12 +403,16 @@
     transition: all .5s ease-out;
 }
 
+#content .business li:hover .lead_txt1 .inner_span1,
+#content .business li:hover .lead_txt2 .inner_span2,
 #content .business li:hover .lead_txt3 .inner_span3 {
     left: 30px;
     opacity: 1;
-    transition-delay: 1.4s;
+    transition-delay: 1s;
 }
 
+#content .business .lead_txt1 .material-symbols-outlined,
+#content .business .lead_txt2 .material-symbols-outlined,
 #content .business .lead_txt3 .material-symbols-outlined {
     position: absolute;
     left: 0;
@@ -582,6 +421,8 @@
     transition: all .5s ease-out;
 }
 
+#content .business .lead_body1:hover .material-symbols-outlined,
+#content .business .lead_body2:hover .material-symbols-outlined,
 #content .business .lead_body3:hover .material-symbols-outlined {
     opacity: 1;
     transition-delay: .6s;
