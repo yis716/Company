@@ -39,4 +39,3 @@ GS리테일 (기업형) 웹 포트폴리오입니다.
 
 =======
 - img tag(alt), a tag(title), table(scope, thead, tbody) 등 태그 속성을 활용해 접근성 향상
->>>>>>> 5dc8d4a (index meta태그 추가 및 서브페이지 js파일 수정)
