@@ -35,7 +35,3 @@ GS리테일 (기업형) 웹 포트폴리오입니다.
 - 시멘틱 마크업, 아웃라인 정돈
 <<<<<<< HEAD
 - img tag(alt), a tag(title), table(scope, thead, tbody) 등 태그 속성을 활용해 접근성 향상
-
-
-=======
-- img tag(alt), a tag(title), table(scope, thead, tbody) 등 태그 속성을 활용해 접근성 향상
